@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 800px;
+    text-align: center;
+}
+/* .header .col{
+    height: 100px;
+} */
+.box1{
+    width: 100%;
+    background-color: rgba(33,37,41);
+}
+.box1 nav{
+    background-color: rgba(33,37,41);
+    padding-left: 10px;
+    width: 100%;
+    margin-left: -14px;
+}
+/* .box1 nav a{
+    color: white;
+} */
+.navbar-brand img{
+    width: 120px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.start{
+    position: relative;
+    height: 92%;
+    background: url(https://s3.amazonaws.com/nikeinc/assets/94785/Nike_Sportswear_SU20_Tee_Attack_06_rectangle_1600.jpg?1586541330)no-repeat center;
+    background-size: cover;
+}
+.start .text h1{
+    color: white;
+    text-transform: uppercase;
+}
+.container{
+    padding: none;
+}
+.start .text{
+    position: absolute;
+    bottom: 230px;
+    left: 0;
+    width: 340px;
+    padding-left: 15px;
+}
+.start .text p{
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
+.knopka{
+    display: flex;
+    position: absolute;
+    bottom: 180px;
+    left: 0;
+}
+.knopka .knopka1 a{
+    margin-left: 45px;
+    /* border: 2px solid black; */
+    padding: 10px 32px;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    transition: all .5s ease-in;
+}
+.knopka .knopka1 a:hover{
+    background-color: rgba(255, 255, 255, 0.699);
+}
+.knopka .knopka2{
+    margin-left: 20px;
+}
+.knopka .knopka2 a{
+    padding: 10px 46px;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    transition: all .5s ease-in;
+}
+.knopka .knopka2 a:hover{
+    background-color: rgba(255, 255, 255, 0.699); 
+}
+.main{
+    margin-top: 20px;
+}
+.introduce h2{
+margin-left: 20px;
+margin-bottom: 30px;
+}
+.intro{
+    width: 100%;
+    display: flex;
+}
+.intro .video{
+    /* margin-left: 540px; */
+}
+/* .darkside{
+    
+    padding-top: 30px;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 0px;
+    left: 502px;
+    background-color: rgba(0, 0, 0, 0.61);
+    text-align: center  ;
+} */
+.info{
+    padding-top: 40px;
+    margin-left: 350px;
+    height: 400px;
+    width: 400px;
+    background: url(https://www.golfdigest.com/content/dam/images/golfdigest/fullset/2021/4/LebronJames_April2021.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+.info h4{
+    color: white;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+.info p{
+    color: white;
+}
+.info i{
+    color: white;
+    font-size: 50px;
+    transition: all .5s ease-in;
+}
+.info .scroll h5{
+    color: white;
+    display: none;
+}
+.fa-angle-double-down:hover{
+    font-size: 53px;
+}
+
+.fa-angle-double-down:hover h5{
+    display: block;
+}
+.frame{
+text-align: center;
+}
+.frame h2{
+    margin-bottom: 50px;
+}
+.frame .card{
+    margin-bottom: 15px;
+}
+.card{
+    position: relative;
+    transition: all .6s ease-in;
+}
+.price{
+    position: relative;
+    
+    left: -130px;
+}
+.price a{
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    border-radius: 30px;
+}
+.command{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.command a{
+    padding: 5px 7px;
+    background-color: darkmagenta;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.review{
+    margin-left: 200px;
+    margin-bottom: 12px;
+}
+.like{
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+.like i{
+    color: red;
+    font-size: 17px;
+    transition: all .6s ease-in;
+}
+.like i:hover{
+    font-size: 19px;
+}
+.bag{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+.bag i{
+    font-size: 17px;
+    transition: all .6s ease-in;
+}
+.bag i:hover{
+    font-size: 19px;
+}
+.card:hover{
+    background-color: rgba(212, 211, 134, 0.096);
+    -webkit-box-shadow: 7px 4px 17px 5px #000000; 
+box-shadow: 7px 4px 17px 5px #000000;
+}
+@media screen and (max-width:1556px) {
+    .info{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:1050px) {
+    .intro{
+        display: block;
+    }
+    .info{
+        width: 100%;
+    }
+    .intro iframe{
+        width: 100%;
+    }
+}
