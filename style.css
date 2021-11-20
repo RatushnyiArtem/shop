@@ -7,6 +7,12 @@
     height: 800px;
     text-align: center;
 }
+.card .price a:hover{
+    color: black;
+}
+.card .command a:hover{
+    color: white;
+}
 /* .header .col{
     height: 100px;
 } */
