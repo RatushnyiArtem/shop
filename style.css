@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 1920px;
+}
+.container-fluid{
+    margin: 0 auto;
+    
+}
 .header{
     height: 800px;
     text-align: center;
